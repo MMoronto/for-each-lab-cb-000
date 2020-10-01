@@ -12,3 +12,7 @@ function iterate(callback) {
   candy.forEach(callback)
   return candy;
 }
+
+function doToArray(array, callback) {
+  array.forEach(callback);
+}
